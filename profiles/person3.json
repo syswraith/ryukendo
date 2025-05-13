@@ -1,0 +1,13 @@
+{
+  "first_name": "Dev",
+  "middle_name": "Anand",
+  "last_name": "Rao",
+  "affiliation": ["Zeus", "CodeRiot", "debuggy"],
+  "dates": ["01012020", "29082021", "14122023"],
+  "mutuals": 5,
+  "intimacy": 3,
+  "frequency_of_contact": 3,
+  "shared_xp": 3,
+  "time_known": 5
+}
+
