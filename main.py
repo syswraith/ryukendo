@@ -1,6 +1,9 @@
 from Person import Person
+from Combinator import Combinator
 
 person1 = Person('./profiles/person3.json', (10, 10))
-print(person1.yield_iterables())
-print(person1.extract_mutuals_and_time_known())
-print(person1.yield_closeness())
+other_person = person1.yield_iterables()
+my_info = [("Vedant", "Pravin", "Jadhav"), ("11", "04", "26"), ("%", "_")]
+my_info.extend(list(other_person))
+c1 = Combinator(my_info)
+for x in c1.return_passwords(): print(x)

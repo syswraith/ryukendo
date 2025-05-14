@@ -47,8 +47,3 @@ class Person:
         return closeness
 
     def yield_iterables(self): return tuple(self.text), tuple(self.numbers), tuple(self.special_characters)
-
-
-#person1 = Person('./profiles/person3.json', 10, 10)
-#print(person1.yield_iterables())
-#print(person1.yield_closeness())
