@@ -1,13 +1,13 @@
 {
-  "first_name": "Nia",
-  "middle_name": "Renee",
-  "last_name": "Khatri",
-  "affiliation": ["Milo", "SketchSquad", "pixel_blossom"],
-  "dates": ["15052021", "03032022", "11022024"],
+  "first_name": "Rhea",
+  "middle_name": "Anvi",
+  "last_name": "Kapur",
+  "affiliation": ["nightShade", "sudo_pack", "echoLoop42"],
   "mutuals": 2,
-  "intimacy": 2,
-  "frequency_of_contact": 1,
-  "shared_xp": 2,
-  "time_known": 3
+  "intimacy": 4,
+  "frequency_of_contact": 5,
+  "shared_xp": 4,
+  "time_known": 5,
+  "numbers": [3, 99, 42, 108]
 }
 

@@ -1,13 +1,13 @@
 {
-  "first_name": "Dev",
-  "middle_name": "Anand",
-  "last_name": "Rao",
-  "affiliation": ["Zeus", "CodeRiot", "debuggy"],
-  "dates": ["01012020", "29082021", "14122023"],
-  "mutuals": 5,
-  "intimacy": 3,
-  "frequency_of_contact": 3,
-  "shared_xp": 3,
-  "time_known": 5
+  "first_name": "Vihaan",
+  "middle_name": "Aryan",
+  "last_name": "Deshmukh",
+  "affiliation": ["bit_knights", "nullAxis", "8@core", "HexaCore"],
+  "mutuals": 4,
+  "intimacy": 2,
+  "frequency_of_contact": 1,
+  "shared_xp": 2,
+  "time_known": 6,
+  "numbers": [12, 0, 5, 5]
 }
 
