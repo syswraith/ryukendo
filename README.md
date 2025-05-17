@@ -3,7 +3,8 @@
 # ryukendo 
 a work-in-progress wordlist generator that uses social connections for generating passwords
 
-- [ ] get fields passing them to the password generator function
+- [x] get fields passing them to the password generator function
+- [x] basic filters
 - [ ] leaked passwords -- markov chains -- syntax
-- [ ] sorting
+- [ ] sorting by probability
 - [ ] multithreading
