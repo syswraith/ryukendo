@@ -24,20 +24,19 @@ hierarchy_sorted = dict(sorted(hierarchy.items(), key=lambda x: x[1], reverse=Tr
 
 # generator
 for x in tuple(hierarchy_sorted):
-     print("The current person is", x)
-     person = Person(f'./profiles/{x}', (max_mutuals, max_time_known))
-     other_person = person.yield_iterables()
-     target = [("Vedant", "Pravin", "Jadhav"), ("11", "04", "26"), ("%", "_", "💀")]
-     
-     target_text = set()
-     target_numbers= set()
-     target_special_characters= set()
-     
-     target_text.update(target[0], other_person[0])
-     target_numbers.update(target[1]), other_person[1]
-     target_special_characters.update(target[2], other_person[2])
-     
-     c1 = Combinator([target_text, target_numbers, target_special_characters])
-     for x in c1.return_passwords(): passwords.add(x)
+    person = Person(f'./profiles/{x}', (max_mutuals, max_time_known))
+    other_person = person.yield_iterables()
+    target = [("Vedant", "Pravin", "Jadhav"), ("11", "04", "26"), ("%", "_", "💀")]
+
+    target_text = set()
+    target_numbers= set()
+    target_special_characters= set()
+
+    target_text.update(target[0] + other_person[0])
+    target_numbers.update(target[1] + other_person[1])
+    target_special_characters.update(target[2] + other_person[2])
+    
+    c1 = Combinator([target_text, target_numbers, target_special_characters])
+    for x in c1.return_passwords(): passwords.add(x)
 
 for password in list(passwords): print(password)
