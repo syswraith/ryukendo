@@ -27,7 +27,7 @@ for x in tuple(hierarchy_sorted):
      print("The current person is", x)
      person = Person(f'./profiles/{x}', (max_mutuals, max_time_known))
      other_person = person.yield_iterables()
-     target = [("Vedant", "Pravin", "Jadhav"), ("11", "04", "26"), ("%", "_")]
+     target = [("Vedant", "Pravin", "Jadhav"), ("11", "04", "26"), ("%", "_", "💀")]
      
      target_text = set()
      target_numbers= set()
