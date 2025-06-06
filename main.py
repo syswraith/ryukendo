@@ -13,10 +13,7 @@ for x in os.listdir('./profiles/'):
 # Step 2: Build hierarchy
 hierarchy = {}
 for x in os.listdir('./profiles/'):
-<<<<<<< HEAD
-=======
     if x == "target.json": continue
->>>>>>> 51c86ce9d1938e627a5c377fc511a555cfaa8153
     person = Person(f'./profiles/{x}', (max_mutuals, max_time_known))
     hierarchy[x] = person.yield_closeness()
 hierarchy_sorted = sorted(hierarchy, key=hierarchy.get, reverse=True)
