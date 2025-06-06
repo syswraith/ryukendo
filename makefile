@@ -8,7 +8,7 @@ filter:
 	python3 Apply_Filters.py | tee wordlist_filtered.txt
 
 clear_cache:
-	rm -rf __pycache__
+	rm -rf __pycache__ && rm -rf filters/__pycache__
 
 clear_profiles:
 	rm -rf profiles/*
