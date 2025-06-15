@@ -6,4 +6,6 @@ a work-in-progress wordlist generator that uses social connections for generatin
 - [x] sorting by probability
 - [x] get fields passing them to the password generator function
 - [x] basic filters
-- [ ] multithreading
+- [x] multiprocessing
+
+Visit here for more info https://syswraith.github.io/blog/Homebrewing-a-custom-wordlist-generator
