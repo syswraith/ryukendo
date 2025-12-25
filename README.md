@@ -8,4 +8,4 @@ a work-in-progress wordlist generator that uses social connections for generatin
 - [x] basic filters
 - [x] multiprocessing
 
-Visit here for usage and more info https://syswraith.github.io/blog/Blog/Homebrewing-a-custom-wordlist-generator
+Visit here for usage and more info https://syswraith.com/blog/Blog/Homebrewing-a-custom-wordlist-generator
